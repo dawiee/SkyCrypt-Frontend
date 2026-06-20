@@ -35,11 +35,11 @@
       <Kills />
       <Winter />
       <End />
+      <Auctions />
       <Damage />
       <Pet />
       <Mythological />
       <Upgrades />
-      <Auctions />
       <Claimed />
       <Uncategorized />
     </div>
