@@ -7,8 +7,7 @@
   import Chips from "./misc/chips.svelte";
   import Claimed from "./misc/claimed.svelte";
   import Damage from "./misc/damage.svelte";
-  import Dragons from "./misc/dragons.svelte";
-  import Endstone from "./misc/endstone.svelte";
+  import End from "./misc/end.svelte";
   import Kills from "./misc/kills.svelte";
   import Mythological from "./misc/mythological.svelte";
   import Pet from "./misc/pet.svelte";
@@ -35,8 +34,7 @@
       <!-- TODO: Essence Shop -->
       <Kills />
       <Winter />
-      <Dragons />
-      <Endstone />
+      <End />
       <Damage />
       <Pet />
       <Mythological />
