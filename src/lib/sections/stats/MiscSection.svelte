@@ -9,13 +9,12 @@
   import Damage from "./misc/damage.svelte";
   import Dragons from "./misc/dragons.svelte";
   import Endstone from "./misc/endstone.svelte";
-  import Gifts from "./misc/gifts.svelte";
-  import Jerry from "./misc/jerry.svelte";
   import Kills from "./misc/kills.svelte";
   import Mythological from "./misc/mythological.svelte";
   import Pet from "./misc/pet.svelte";
   import Uncategorized from "./misc/uncategorized.svelte";
   import Upgrades from "./misc/upgrades.svelte";
+  import Winter from "./misc/winter.svelte";
 
   let { order }: { order: number } = $props();
 
@@ -35,8 +34,7 @@
       <Chips />
       <!-- TODO: Essence Shop -->
       <Kills />
-      <Gifts />
-      <Jerry />
+      <Winter />
       <Dragons />
       <Endstone />
       <Damage />
